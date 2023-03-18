@@ -23,7 +23,7 @@ function calculateSalary(role) {
       salary = 1500;
       break;
 
-    default:
+    default: 'other'
       salary = 1000;
       break;
   }
